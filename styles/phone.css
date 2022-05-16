@@ -1,0 +1,24 @@
+header ul,
+main aside ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: .5em auto;
+    justify-content: space-around;
+}
+
+main{
+    margin-top: 6em;
+}
+
+.kenan{
+    float: right;
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+.xianjian,
+.shumabaobei{
+    float: left;
+    width: 40%;
+    margin: 1em;
+}

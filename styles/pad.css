@@ -1,0 +1,38 @@
+@media (min-width: 600px){
+    header{
+        display: flex;
+        height: 7em;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h1{
+        margin-left: 1em;
+    }
+
+    header nav{
+        width: 40%;
+    }
+
+    main{
+        margin-top: 8em;
+        display: grid;
+        grid-template-columns: auto 6em;
+    }
+    main aside ul{
+        margin: 0 1.5em;
+        height: 30em;
+        position: fixed;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .kenan{
+        width: 12em;
+    }
+
+    .xianjian,
+    .shumabaobei{
+        width: 16em
+    }
+}

@@ -1,0 +1,6 @@
+@media (min-width: 900px) {
+    main article{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
+    }
+}

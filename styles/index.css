@@ -1,0 +1,12 @@
+/* 
+@import 必须放在除 @charset 规则的顶层
+放在 @media 规则内无效
+*/
+
+@import 'webpage-common-style.css';
+
+@import 'phone.css';
+
+@import 'pad.css';
+
+@import 'computer.css'
